@@ -83,7 +83,7 @@ function playGame() {
         return `You won the game. You scored ${humanScore} points out of 5 and computer scored ${computerScore} points out of 5`
     }
     else if (computerScore > humanScore) {
-        return `Computer won the game. You scored ${humanScore} points out of 5 and and computer scored ${computerScore} points out of 5`
+        return `Computer won the game. You scored ${humanScore} points out of 5 and computer scored ${computerScore} points out of 5`
     }
     else {
         return `It's a tie. You scored ${humanScore} points out of 5 and computer scored ${computerScore} points out of 5`

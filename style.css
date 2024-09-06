@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     font-family: Roboto, sans-serif;
     display: flex;
     margin: 0;
-    padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     background: #1F2937;;
+}
+
+.content{
+    flex: 1;
 }
 
 .header{
@@ -18,7 +21,7 @@ body{
     justify-content: center; 
     color: yellow;
     font-family:"Nerko One", cursive;
-    font-size: 34px;
+    font-size: 60px;
 }
 
 .subheader{
@@ -32,10 +35,56 @@ body{
 }
 
 .round{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .result{
-    font-size: 16px;
+    font-size: 26px;
 }
 
+.iconParent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.iconScorePlayer, .iconScoreComputer, .finalResult{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 120px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 80px;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #111720;
+}
+
+.rps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+}
